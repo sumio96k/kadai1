@@ -68,4 +68,26 @@ footer {
 
 @media screen and (max-width: 768px) {
   
+  header {
+    width: 100%;
+  }
+  
+  main {
+    display: block;
+    width: 100%;
+  }
+  
+  .box {
+    width: 90%;
+    margin: 0 5% 20px 5%;
+  }
+  
+  .box:last-child {
+    margin-bottom: 0;
+  }
+  
+  footer {
+    width: 100%;
+  }
+  
 }
